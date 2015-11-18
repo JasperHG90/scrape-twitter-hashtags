@@ -21,11 +21,6 @@ def auth(consumer_key, consumer_secret, access_token, access_secret):
 	# Return
 	return(api)
 
-# Connect to mongodb
-def connect_mongo(collection):
-    # Return
-    return(db)
-
 # Download tweets with hashtag
 def dTweets(collection, api, hashtag, number):
 	# Get cursor
